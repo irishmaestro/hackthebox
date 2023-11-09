@@ -13,7 +13,7 @@ gpg --output main.rs --decrypt main.rs.enc
 ### EXECUTE 
 ```shell
 mkdir exploit && cd exploit && wget https://raw.githubusercontent.com/irishmaestro/hackthebox/master/challenges/web_diogenes_rage/exploit/Cargo.toml
-mkdir src && wget  https://raw.githubusercontent.com/irishmaestro/hackthebox/master/challenges/web_diogenes_rage/exploit/src/main.rs -O src/main.rs
+mkdir src && wget https://raw.githubusercontent.com/irishmaestro/hackthebox/master/challenges/web_diogenes_rage/exploit/src/main.rs -O src/main.rs
 cargo build --release
 ./target/release/exploit 
 ```
