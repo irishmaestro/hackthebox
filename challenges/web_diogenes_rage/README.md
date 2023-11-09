@@ -1,7 +1,5 @@
 # HACKTHEBOX WEB DIOGENES RAGE CHALLENGE
-
-## File is currently encrypted due to the challenge being active
-
+<!---
 ### DECRYPT
 ```shell
 git clone https://github.com/irishmaestro/hackthebox
@@ -10,6 +8,7 @@ gpg --output main.rs --decrypt main.rs.enc
 ```
 
 #### ENTER THE FLAG FOR THE CHALLENGE AS THE PASSWORD ONCE PROMPTED
+-->
 
 ### EXECUTE 
 ```shell
